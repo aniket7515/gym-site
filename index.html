@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket fitness</title>
+    <style>
+
+        body{
+            margin:0px;
+            padding:0px;
+            background: url('img/bg5.jpg');
+            
+            width: auto;
+        }
+        .left{
+            /* border: 2px solid lightblue; */
+            border-radius: 55px;
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top:20px;
+            color: white;
+            font-style: italic;
+            /* font-size: 12px; */
+            
+            
+
+        }
+        .left img{
+            width: 94px;
+        }
+        .mid{
+            /* border: 2px solid green; */
+            width: 44%;
+            margin: 20px auto;
+            
+
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: medium;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        
+            
+        }
+        .navbar a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: grey;
+        }
+        .right{
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right:34px;
+            top:20px;
+
+        }
+        .btn{
+            margin: 9px 12px;
+            background: black;
+            color: white;
+            padding: 2px 10px;
+            cursor: pointer;
+            font: medium;
+        }
+        .btn:hover{
+            color: grey;
+        }
+        .container{
+            color: white;
+            margin: 90px 600px;
+            border: 2px solid white;
+            display: inline-block;
+            padding: 75px;
+        }
+        .form-group input{
+            width: 400px;
+            text-align: left;
+            border: 2px solid gray;
+            margin: 4px;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .btn2{
+            color: gray;
+            margin: 0px 6px;
+        }
+        .btn2:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left bpx for symbol -->
+        <div class='left'>
+            <img src="img/syb.png" alt="">
+            <div>Aniket Fitness</div>
+
+
+        </div>
+        <!-- middle for navigation bar -->
+        <div class='mid'>
+            <ul class="navbar">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">FitnessCalculator</a></li>
+                <li><a href="#">ContactUs</a></li>
+            </ul>
+
+        </div>
+        <!-- right for the buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">EmailUs</button>
+
+
+        </div>
+        <div class="container">
+            <h1>Aurangabad's Best gym here!</h1>
+            <h3>Apply Now!</h3>
+            <form action="backend.php">
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Enter your name here">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Enter your Age here">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Enter your  Gender here">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Enter your Address here">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Enter your Email Id here">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" id="" placeholder="Enter your Phone Number here">
+                </div>
+                <button class='btn2'>Submit </button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
